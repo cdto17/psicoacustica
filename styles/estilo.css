@@ -1,0 +1,68 @@
+*{ 
+    padding: 0px;
+    margin: 0px;
+    font-family: Century Gothic;
+}
+body{
+    background: #3b6397;
+
+}
+.encabezado{
+    background: white;
+    padding: 1px 0;
+    
+}
+.home{
+    display: flex;
+
+}
+.in-flex{
+    flex: 1;
+    
+}
+
+.in-flex:first-child{
+    flex: 2;
+    padding: 25px;
+    background-color: whitesmoke;
+    margin: 20px;
+}
+.in-flex div{
+    padding: 25px;
+    background-color: whitesmoke;
+    margin: 20px;
+}
+.btn-neon{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: rgb(173, 8, 8);
+    letter-spacing: 4px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+
+}
+.btn-neon:hover{
+    background: #A945c7;
+    box-shadow: 0 0 10px #A945c7, 0 0 40px #A945c7, 0 0 80px #A945c7;
+    transition-delay: 0.10s;
+
+}
+.imagen{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: rgb(173, 8, 8);
+    letter-spacing: 4px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+
+}
+.imagen:hover{
+    background: #4eb8e2;
+    box-shadow: 0 0 10px #45a9c7, 0 0 40px #45a9c7, 0 0 80px #45a9c7;
+   
+
+}

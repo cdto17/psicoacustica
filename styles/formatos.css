@@ -1,0 +1,42 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+
+body{
+    background: url('./../imagenes/fondo.jpg') no-repeat;
+    background-size: cover;
+}
+
+.contenedor{
+    background: rgb(28, 62, 85);
+    width: 1000px;
+    margin: 10px auto;
+}
+.superior{
+    background: white;
+    padding: 1px 0;
+    
+}
+
+.descripcion{
+    background: rgb(102, 245, 238);
+    padding: 10px 0;
+}
+
+.mapadiv{
+    width: 70%;
+    margin: auto;
+
+}
+
+.mapadiv path {
+    fill:burlywood;
+    stroke:#8B4513;
+    stroke-width: 1px;
+}
+
+.mapadiv :hover{
+    fill: #4aa72d;
+}
